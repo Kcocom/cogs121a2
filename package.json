@@ -1,0 +1,25 @@
+{
+  "name": "TumblrAppExample",
+  "version": "0.0.1",
+  "author": "Chu Shao",
+    "repository": {
+        "type": "git"
+      , "url": "https://github.com/COGS121/TumblrAppExample.git"
+    },  
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-tumblr": "*",
+    "tumblr": "*",
+    "dotenv": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }  
+}
